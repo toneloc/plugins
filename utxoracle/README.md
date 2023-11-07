@@ -19,8 +19,8 @@ To use the UTXOracle plugin, you need to have a running instance of LND and have
 
 Invoke the plugin with:
 
-```bash
-lightningd --plugin=/path/to/utxoracle.py
+
+```lightningd --plugin=/path/to/utxoracle.py```
 
 
 ### How It Works
