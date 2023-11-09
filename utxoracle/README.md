@@ -15,7 +15,7 @@ The `utxoracle` method computes an estimated USD price of Bitcoin based on the o
 
 ## Usage
 
-To use the UTXOracle plugin, you need to have a running instance of LND and have the plugin installed in the correct directory.
+To use the UTXOracle plugin, you need to have a running instance of Core Lightning running.
 
 Invoke the plugin with:
 
@@ -27,7 +27,7 @@ Invoke the plugin with:
 
 #### Build the Container for Output Amounts Bell Curve:
 - Establishes a range for the bell curve bins to contain output amounts.
-- Fills the bell curve bins with calculated Bitcoin amounts, ranging from 100 sats (1e-6 btc) to 100k (1e5) btc.
+- Fills the bell curve bins with calculated Bitcoin amounts.
 
 #### Get All Output Amounts from the Last 144 Blocks:
 - Fetches the current block count and sets the range to the last 144 blocks for analysis.
