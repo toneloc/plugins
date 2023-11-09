@@ -93,7 +93,7 @@ def utxoracle():
        
     # Part 7
     #remove ouputs below 1k sats
-    for n in range(0,201):
+    for n in range(0,401):
         output_bell_curve_bin_counts[n]=0
         print("output_bell_curve_bin_counts[n]=0",output_bell_curve_bin_counts[n])
 
